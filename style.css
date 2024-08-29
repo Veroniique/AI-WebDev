@@ -1,0 +1,188 @@
+body {
+    font-family: sans-serif;
+}
+
+header, footer {
+    padding: 20px;
+}
+
+name-style {
+    color: purple;
+}
+
+name-style2 {
+    color: purple;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em
+}
+
+footer ul {
+    list-style: none;
+}
+
+img {
+    height: auto;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.skill-item img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.skill-item {
+    margin: 10px;
+    flex: 1 1 30%;
+    box-sizing: border-box;
+    display: fflex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-item p {
+    margin-top: 0;
+    font-size: 1em;
+}
+
+.skill-item li {
+    list-style: none;
+    font-size: 1em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.skill-text {
+    font-size: 2em;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 25px;
+    font-size: large;
+}
+
+.about-img {
+    flex: 1;
+    text-align: right;
+}
+
+.about-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+#recommendations {
+    background-color: #f5f5dc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 376px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px(grey)
+}
+
+#recommendations h1 {
+    font-family: Arial, sans-serif;
+    color: pnik;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#form-rec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#new-rec {
+    width: 100%;
+    max-width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#form-rec button {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form-rec button:hover {
+    background-color: red;
+}
+
+rec-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
